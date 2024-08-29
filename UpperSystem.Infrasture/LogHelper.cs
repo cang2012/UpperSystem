@@ -6,13 +6,13 @@ namespace UpperSystem.Infrasture
 {
     public class LogHelper
     {
-        #region 配置方法，加载配置文件
+        #region Load Config
         public static void SetConfig()
         {
             XmlConfigurator.Configure();
         }
 
-        //【程序窗体加载的时候调用这个方法】
+        // Call this method when application init.
         public static void SetConfig(FileInfo configFile)
         {
             XmlConfigurator.Configure(configFile);
@@ -20,7 +20,7 @@ namespace UpperSystem.Infrasture
 
         #endregion
 
-        #region 写入日志的方法
+        #region Write log method.
 
         public static readonly log4net.ILog LogForFatal = log4net.LogManager.GetLogger("fatal");
         public static readonly log4net.ILog LogForError = log4net.LogManager.GetLogger("error");
@@ -51,7 +51,7 @@ namespace UpperSystem.Infrasture
 
         #endregion
 
-        #region 写入日志的方法【二】
+        #region write info log.
 
         public static void WriteLogInfo(string info)
         {
