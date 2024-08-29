@@ -15,10 +15,14 @@ namespace UpperSystem
         {
             InitializeComponent();
 
-            string fileName = IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "log4net.config");
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string fileName = IO.Path.Combine(baseDirectory, "log4net.config");
             if (!File.Exists(fileName))
             {
-                File.WriteAllText(fileName, $"日志配置文件不存在,请检查文件路径\n,{fileName}");
+                string tempFileFullName = Path.GetTempFileName();
+                string tempFileName = Path.GetTempFileName().Substring(tempFileFullName.LastIndexOf("\\") + 1);
+
+                File.WriteAllText(Path.Combine(baseDirectory, tempFileName), $"日志配置文件不存在,请检查文件路径\n,{fileName}");
             }
                 
             LogHelper.SetConfig(new FileInfo(fileName));
