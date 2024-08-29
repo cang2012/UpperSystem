@@ -32,21 +32,21 @@ namespace UpperSystem.Infrasture
         {
             LogForInfo.Fatal(fatal, e);
         }
-        public static void Error(string error_info, Exception t)
+        public static void Error(string errorInfo, Exception t)
         {
-            LogForError.Error(error_info, t);
+            LogForError.Error(errorInfo, t);
         }
-        public static void Warn(string warn_info)
+        public static void Warn(string warnInfo)
         {
-            LogForDebug.Warn(warn_info);
+            LogForDebug.Warn(warnInfo);
         }
         public static void Info(string info)
         {
             LogForInfo.Info(info);
         }
-        public static void Debug(string debug_info)
+        public static void Debug(string debugInfo)
         {
-            LogForInfo.Debug(debug_info);
+            LogForInfo.Debug(debugInfo);
         }
 
         #endregion
