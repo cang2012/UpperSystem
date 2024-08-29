@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35130.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpperSystem", "UpperSystem.csproj", "{FA469585-3D6D-48F7-9A69-6C10031DC980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpperSystem.Infrasture", "..\UpperSystem.Infrasture\UpperSystem.Infrasture.csproj", "{1340F4FD-B6AB-4923-9719-3AAB576C0173}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA469585-3D6D-48F7-9A69-6C10031DC980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA469585-3D6D-48F7-9A69-6C10031DC980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA469585-3D6D-48F7-9A69-6C10031DC980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA469585-3D6D-48F7-9A69-6C10031DC980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1340F4FD-B6AB-4923-9719-3AAB576C0173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1340F4FD-B6AB-4923-9719-3AAB576C0173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1340F4FD-B6AB-4923-9719-3AAB576C0173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1340F4FD-B6AB-4923-9719-3AAB576C0173}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E73D8AB0-F3AB-46E6-959C-2E8D3AE1553B}
+	EndGlobalSection
+EndGlobal
