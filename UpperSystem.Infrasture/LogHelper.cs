@@ -58,7 +58,7 @@ namespace UpperSystem.Infrasture
             bool isInfoEnabled = LogHelper.LogForInfo.IsInfoEnabled;
             if (isInfoEnabled)
             {
-                LogHelper.LogForInfo.Info(info);
+                LogForInfo.Info(info);
             }
         }
 
