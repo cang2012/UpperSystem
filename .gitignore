@@ -4,3 +4,6 @@
 
 /UpperSystem.Infrasture/bin/Debug
 /UpperSystem.Infrasture/obj/Debug
+/UpperSystem.IServices/obj/Debug
+/UpperSystem.Services/obj/Debug
+/UpperSystem.Utility/obj/Debug
