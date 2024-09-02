@@ -1,0 +1,6 @@
+D:\Dev\UpperSystem.DataAccess\bin\Debug\UpperSystem.DataAccess.dll
+D:\Dev\UpperSystem.DataAccess\bin\Debug\UpperSystem.DataAccess.pdb
+D:\Dev\UpperSystem.DataAccess\obj\Debug\UpperSystem.DataAccess.csproj.AssemblyReference.cache
+D:\Dev\UpperSystem.DataAccess\obj\Debug\UpperSystem.DataAccess.csproj.CoreCompileInputs.cache
+D:\Dev\UpperSystem.DataAccess\obj\Debug\UpperSystem.DataAccess.dll
+D:\Dev\UpperSystem.DataAccess\obj\Debug\UpperSystem.DataAccess.pdb

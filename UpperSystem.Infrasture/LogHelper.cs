@@ -12,7 +12,8 @@ namespace UpperSystem.Infrasture
             XmlConfigurator.Configure();
         }
 
-        // Call this method when application init.
+
+        // Call this method when application initialize.
         public static void SetConfig(FileInfo configFile)
         {
             XmlConfigurator.Configure(configFile);
@@ -51,7 +52,7 @@ namespace UpperSystem.Infrasture
 
         #endregion
 
-        #region write info log.
+        #region Write info log.
 
         public static void WriteLogInfo(string info)
         {
