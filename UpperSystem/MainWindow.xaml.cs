@@ -10,8 +10,6 @@ namespace UpperSystem
     /// </summary>
     public partial class MainWindow : Window
     {
-
-        UserInfoService _service = new UserInfoService();
         public MainWindow()
         {
             InitializeComponent();
