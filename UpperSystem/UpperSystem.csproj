@@ -107,9 +107,21 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\UpperSystem.Entity\UpperSystem.Entity.csproj">
+      <Project>{f8223234-eda9-423a-8a90-55144748a474}</Project>
+      <Name>UpperSystem.Entity</Name>
+    </ProjectReference>
     <ProjectReference Include="..\UpperSystem.Infrasture\UpperSystem.Infrasture.csproj">
       <Project>{1340f4fd-b6ab-4923-9719-3aab576c0173}</Project>
       <Name>UpperSystem.Infrasture</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpperSystem.Services\UpperSystem.Services.csproj">
+      <Project>{6542e831-df4e-4e34-bf5a-80bd5be2eccc}</Project>
+      <Name>UpperSystem.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpperSystem.Utility\UpperSystem.Utility.csproj">
+      <Project>{0d3fd8fa-b723-4f03-abf6-4fb32a806982}</Project>
+      <Name>UpperSystem.Utility</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

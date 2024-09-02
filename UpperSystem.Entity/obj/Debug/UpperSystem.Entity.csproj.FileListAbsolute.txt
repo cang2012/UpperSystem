@@ -1,0 +1,6 @@
+D:\Dev\UpperSystem.Entity\bin\Debug\UpperSystem.Entity.dll
+D:\Dev\UpperSystem.Entity\bin\Debug\UpperSystem.Entity.pdb
+D:\Dev\UpperSystem.Entity\obj\Debug\UpperSystem.Entity.csproj.AssemblyReference.cache
+D:\Dev\UpperSystem.Entity\obj\Debug\UpperSystem.Entity.csproj.CoreCompileInputs.cache
+D:\Dev\UpperSystem.Entity\obj\Debug\UpperSystem.Entity.dll
+D:\Dev\UpperSystem.Entity\obj\Debug\UpperSystem.Entity.pdb

@@ -4,3 +4,6 @@ D:\Dev\UpperSystem.IServices\obj\Debug\UpperSystem.IServices.csproj.AssemblyRefe
 D:\Dev\UpperSystem.IServices\obj\Debug\UpperSystem.IServices.csproj.CoreCompileInputs.cache
 D:\Dev\UpperSystem.IServices\obj\Debug\UpperSystem.IServices.dll
 D:\Dev\UpperSystem.IServices\obj\Debug\UpperSystem.IServices.pdb
+D:\Dev\UpperSystem.IServices\bin\Debug\UpperSystem.Entity.dll
+D:\Dev\UpperSystem.IServices\bin\Debug\UpperSystem.Entity.pdb
+D:\Dev\UpperSystem.IServices\obj\Debug\UpperSystem.IServices.csproj.CopyComplete
