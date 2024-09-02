@@ -12,6 +12,7 @@ namespace UpperSystem.Infrasture
             XmlConfigurator.Configure();
         }
 
+
         // Call this method when application initialize.
         public static void SetConfig(FileInfo configFile)
         {

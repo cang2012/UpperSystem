@@ -1,0 +1,6 @@
+D:\Dev\UpperSystem.IServices\bin\Debug\UpperSystem.IServices.dll
+D:\Dev\UpperSystem.IServices\bin\Debug\UpperSystem.IServices.pdb
+D:\Dev\UpperSystem.IServices\obj\Debug\UpperSystem.IServices.csproj.AssemblyReference.cache
+D:\Dev\UpperSystem.IServices\obj\Debug\UpperSystem.IServices.csproj.CoreCompileInputs.cache
+D:\Dev\UpperSystem.IServices\obj\Debug\UpperSystem.IServices.dll
+D:\Dev\UpperSystem.IServices\obj\Debug\UpperSystem.IServices.pdb
