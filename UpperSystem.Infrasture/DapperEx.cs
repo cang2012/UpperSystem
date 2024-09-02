@@ -5,10 +5,11 @@ using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using UpperSystem.Entity;
 
 namespace UpperSystem.Infrasture
 {
-    public class DapperEx<T>
+    public class DapperEx<T> where T: EntityBase
     {
         /// <summary>
         /// 数据库连接字符串

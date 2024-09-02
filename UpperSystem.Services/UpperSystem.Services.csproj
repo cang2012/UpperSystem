@@ -42,6 +42,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserInfoService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UpperSystem.DataAccess\UpperSystem.DataAccess.csproj">
+      <Project>{28b3239e-e5ba-4ff3-a44c-f395adb15617}</Project>
+      <Name>UpperSystem.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpperSystem.Entity\UpperSystem.Entity.csproj">
+      <Project>{f8223234-eda9-423a-8a90-55144748a474}</Project>
+      <Name>UpperSystem.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpperSystem.IServices\UpperSystem.IServices.csproj">
+      <Project>{26a90066-78a3-4608-b63b-991650cf0919}</Project>
+      <Name>UpperSystem.IServices</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

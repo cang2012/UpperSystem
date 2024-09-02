@@ -4,3 +4,16 @@ D:\Dev\UpperSystem.DataAccess\obj\Debug\UpperSystem.DataAccess.csproj.AssemblyRe
 D:\Dev\UpperSystem.DataAccess\obj\Debug\UpperSystem.DataAccess.csproj.CoreCompileInputs.cache
 D:\Dev\UpperSystem.DataAccess\obj\Debug\UpperSystem.DataAccess.dll
 D:\Dev\UpperSystem.DataAccess\obj\Debug\UpperSystem.DataAccess.pdb
+D:\Dev\UpperSystem.DataAccess\bin\Debug\UpperSystem.Entity.dll
+D:\Dev\UpperSystem.DataAccess\bin\Debug\UpperSystem.IDataAccess.dll
+D:\Dev\UpperSystem.DataAccess\bin\Debug\UpperSystem.Infrasture.dll
+D:\Dev\UpperSystem.DataAccess\bin\Debug\UpperSystem.Utility.dll
+D:\Dev\UpperSystem.DataAccess\bin\Debug\log4net.dll
+D:\Dev\UpperSystem.DataAccess\bin\Debug\Dapper.dll
+D:\Dev\UpperSystem.DataAccess\bin\Debug\UpperSystem.Entity.pdb
+D:\Dev\UpperSystem.DataAccess\bin\Debug\UpperSystem.IDataAccess.pdb
+D:\Dev\UpperSystem.DataAccess\bin\Debug\UpperSystem.Infrasture.pdb
+D:\Dev\UpperSystem.DataAccess\bin\Debug\UpperSystem.Utility.pdb
+D:\Dev\UpperSystem.DataAccess\bin\Debug\log4net.xml
+D:\Dev\UpperSystem.DataAccess\bin\Debug\Dapper.xml
+D:\Dev\UpperSystem.DataAccess\obj\Debug\UpperSystem.DataAccess.csproj.CopyComplete

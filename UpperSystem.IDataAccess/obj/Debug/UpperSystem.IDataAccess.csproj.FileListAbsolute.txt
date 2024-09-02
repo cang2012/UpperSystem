@@ -1,0 +1,9 @@
+D:\Dev\UpperSystem.IDataAccess\bin\Debug\UpperSystem.IDataAccess.dll
+D:\Dev\UpperSystem.IDataAccess\bin\Debug\UpperSystem.IDataAccess.pdb
+D:\Dev\UpperSystem.IDataAccess\bin\Debug\UpperSystem.Entity.dll
+D:\Dev\UpperSystem.IDataAccess\bin\Debug\UpperSystem.Entity.pdb
+D:\Dev\UpperSystem.IDataAccess\obj\Debug\UpperSystem.IDataAccess.csproj.AssemblyReference.cache
+D:\Dev\UpperSystem.IDataAccess\obj\Debug\UpperSystem.IDataAccess.csproj.CoreCompileInputs.cache
+D:\Dev\UpperSystem.IDataAccess\obj\Debug\UpperSystem.IDataAccess.csproj.CopyComplete
+D:\Dev\UpperSystem.IDataAccess\obj\Debug\UpperSystem.IDataAccess.dll
+D:\Dev\UpperSystem.IDataAccess\obj\Debug\UpperSystem.IDataAccess.pdb
