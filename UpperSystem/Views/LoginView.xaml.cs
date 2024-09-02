@@ -1,5 +1,6 @@
 ﻿using Panuon.WPF.UI;
 using System.Windows;
+using UpperSystem.ViewModels;
 
 namespace UpperSystem
 {
@@ -7,21 +8,22 @@ namespace UpperSystem
     /// Interaction logic for SignInView.xaml
     /// </summary>
     [ExampleView(Index = 2, DisplayName = "Sign In")]
-    public partial class SignInView : WindowX
+    public partial class LoginView : WindowX
     {
         #region Fields
         private bool _isProcessing;
         #endregion
 
         #region Ctor
-        public SignInView()
+        public LoginView()
         {
             InitializeComponent();
+            this.DataContext = new LoginViewModel { LoginName = "VBVBVB", Password = "343434" };
         }
         #endregion
 
         #region Event Handlers
-        private void BtnLogin_Click(object sender, RoutedEventArgs e)
+        private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
             if (_isProcessing)
             {
@@ -33,19 +35,19 @@ namespace UpperSystem
                 return;
             }
             _isProcessing = true;
-            ButtonHelper.SetIsPending(BtnLogin, true);
-            Password.ValidateResult = ValidateResult.None;
-            Password.Message = null;
+            ButtonHelper.SetIsPending(btnLogin, true);
+            passwordGroup.ValidateResult = ValidateResult.None;
+            passwordGroup.Message = null;
 
             MessageBoxX.Show(this, "登录成功", "提示", MessageBoxIcon.Info, DefaultButton.YesOK);
         }
 
-        private void LoginName_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        private void loginName_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
         {
             ValidateAccount();
         }
 
-        private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
+        private void passwordChanged(object sender, RoutedEventArgs e)
         {
             ValidatePassword();
         }
@@ -54,26 +56,26 @@ namespace UpperSystem
         #region Functions
         private bool ValidateAccount()
         {
-            if (LoginName.Text == null 
-                || LoginName.Text == "")
+            if (loginName.Text == null 
+                || loginName.Text == "")
             {
-                FrmAccount.ValidateResult = ValidateResult.Error;
-                FrmAccount.Message = "请输入用户名.";
+                frmAccount.ValidateResult = ValidateResult.Error;
+                frmAccount.Message = "请输入用户名.";
                 return false;
             }
-            FrmAccount.ValidateResult = ValidateResult.Success;
-            FrmAccount.Message = "";
+            frmAccount.ValidateResult = ValidateResult.Success;
+            frmAccount.Message = "";
 
             return true;
         }
 
             private bool ValidatePassword()
         {
-            if (PwdPassword.Password == null 
-                || PwdPassword.Password == "")
+            if (password.Password == null 
+                || password.Password == "")
             {
-                Password.ValidateResult = ValidateResult.Error;
-                Password.Message = "请输入用户密码.";
+                passwordGroup.ValidateResult = ValidateResult.Error;
+                passwordGroup.Message = "请输入用户密码.";
                 return false;
             }
             //else if (PwdPassword.Password.Length < 4)
@@ -90,8 +92,8 @@ namespace UpperSystem
             //}
             else
             {
-                Password.ValidateResult = ValidateResult.Success;
-                Password.Message = "";
+                passwordGroup.ValidateResult = ValidateResult.Success;
+                passwordGroup.Message = "";
                 return true;
             }
         }
